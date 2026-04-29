@@ -85,8 +85,7 @@ def style_ax(ax, title='', xlabel='', ylabel=''):
 # ══════════════════════════════════════════════════════════════════════════════
 # LOAD DATA
 # ══════════════════════════════════════════════════════════════════════════════
-FILE_PATH = r'C:\Users\sandh\OneDrive\Desktop\Afficionado_Project\Afficionado Coffee Roasters.xlsx - Transactions.csv'
-
+FILE_PATH = 'Afficionado Coffee Roasters.xlsx - Transactions.csv'
 @st.cache_data
 def load_data():
     df = pd.read_csv(FILE_PATH)
